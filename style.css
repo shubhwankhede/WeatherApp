@@ -1,0 +1,82 @@
+
+
+
+
+
+
+body{    
+    background-image: url("img/4156249.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #0D6EFD, var(--bs-bg-opacity) !important;
+}
+
+.temp{
+    opacity: 100;
+}
+
+.col{
+    opacity: 0.80;
+}
+
+
+.list-unstyled mt-3 mb-4{
+    background-color: aliceblue;
+}
+
+.form-control, .btn.btn-outline-success{
+    --bs-bg-opacity: 1;
+    background-color: #0D6EFD,  !important;
+}
+
+
+
+.table-responsive {
+    overflow-x: auto;
+    --bs-bg-opacity: 1;
+    background-color: #0D6EFD, var(--bs-bg-opacity) !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #e0e1eb;
+    --bs-btn-border-color: #0D6EFD;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0D6EFD;
+    --bs-btn-hover-border-color: #0D6EFD;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0D6EFD;
+    --bs-btn-active-border-color: #0D6EFD;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0D6EFD;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0D6EFD;
+    --bs-gradient: none;
+}
+
+table .text-center{
+    color: black;
+}
+
+
+
+
+
+.card-body1.temp2{
+    font-weight: 500;
+}
+
+.card-title .pricing-card-title{
+    font-weight: 500;
+    color: brown;
+}
